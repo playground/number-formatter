@@ -6,8 +6,6 @@
  * @param {string} locale
  * @return {string}
  */
-const numFormatter = (number, locale) => {
+module.exports = (number, locale) => {
   return number.toLocaleString(locale);
 };
-
-export {numFormatter}

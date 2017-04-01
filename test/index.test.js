@@ -1,5 +1,5 @@
 import test from 'tape';
-import {numFormatter} from '../index';
+import numFormatter from '../source/index';
 
 test('numFormatter', (assert) => {
   let result = numFormatter(1);
