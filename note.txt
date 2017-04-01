@@ -1,0 +1,12 @@
+git add .
+git commit -m “Initial release”
+git tag v0.0.1
+git push origin master --tags
+
+npm publish or npm publish --access=public
+
+npm version patch -m "Version %s - add sweet badges"
+
+After bumping the version number
+git push && git push --tags (or git push origin master --tags)
+npm publish
